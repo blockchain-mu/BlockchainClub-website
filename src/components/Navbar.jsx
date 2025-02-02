@@ -14,7 +14,7 @@ export const Navbar = () => {
       <Button name={'Partners'}/>  
     </div>
     <div className="w-8 sm:hidden mx-3 cursor-pointer" onClick={() => setDropdownVisible(!dropdownVisible)}>
-      <HamburgerIcon className="text-white w-8"/>
+      <HamburgerIcon className="text-white navbar w-8"/>
     </div>
     {dropdownVisible && <Dropdown/>}
   </div>
